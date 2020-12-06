@@ -7,8 +7,10 @@
    --------------------------------------
    Vectorul de intrare primeste doar
    numere naturale, fapt datorat metodei
-   de sortare, care inlocuieste elementul
-   de pe indexul "i" cu numarul "i".
+   de sortare, care adauga 1 pentru
+   fiecare element "i" din vectorul
+   principal pe pozitia "i" din cel de-al
+   doilea.
  */
 
 #include <iostream>

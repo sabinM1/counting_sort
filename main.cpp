@@ -1,16 +1,19 @@
 /*
    Metoda de sortare Counting Sort
    Cod modificat de pe tutorialspoint.com
-   --------------------------------------
-   Algoritmul este facut pentru C++11,
-   a se rula cu "g++ -std=c++11 main.cpp"
-   --------------------------------------
+   ----------------------------------------
+   Algoritmul este facut pentru C++11, a se
+   rula cu "g++ -std=c++11 main.cpp"
+   ----------------------------------------
    Vectorul de intrare primeste doar
-   numere naturale, fapt datorat metodei
-   de sortare, care adauga 1 pentru
-   fiecare element "i" din vectorul
-   principal pe pozitia "i" din cel de-al
-   doilea.
+   numere naturale, fapt datorat metodei de
+   sortare, care adauga 1 pentru fiecare
+   element "i" din vectorul principal pe
+   pozitia "i" din cel de-al doilea.
+   ----------------------------------------
+   Vezi mai multe informatii si explicatii
+   in fisierul "README.md" si pe
+   https://github.com/sabinM1/counting_sort
  */
 
 #include <iostream>

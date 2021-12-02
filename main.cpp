@@ -26,7 +26,7 @@ void countSort(int *V, int N)
 {
 	int rezultat[N+5]; //vectorul rezultat
 	int max = getMax(V, N); //se afla cel mai mare numar din sir
-	int count[max+5]; //se creeaza un vector, cunoscut pentru aceasta metoda se sortare, pana la max + 5...
+	int count[max+5]; //se creeaza un vector, cunoscut pentru aceasta metoda de sortare, pana la max + 5 (pentru siguranta)
 	for(int i = 0; i <= max; i++)
 		count[i] = 0; //...cu toate elementele initializare cu 0
 	for(int i = 1; i <= N; i++)
